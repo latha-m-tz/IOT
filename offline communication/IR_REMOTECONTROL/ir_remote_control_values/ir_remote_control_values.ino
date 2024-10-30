@@ -24,26 +24,25 @@ void loop() {
     
     // Switch case to use the selected remote control button
     switch (results.value) {
-      case 0xE0E020DF: // When you press the 1 button on Samsung remote
+      case 3772784863: // When you press the 1 button on Samsung remote
         digitalWrite(bluePin, HIGH);
         break;   
-      case 0xE0E010EF: // When you press the 4 button on Samsung remote
+      case 3772780783: // When you press the 4 button on Samsung remote
         digitalWrite(bluePin, LOW);   
         break;
-      case 0xE0E0A05F: // When you press the 2 button on Samsung remote
+      case 3772817503: // When you press the 2 button on Samsung remote
         digitalWrite(greenPin, HIGH);
         break;           
-      case 0xE0E0906F: // When you press the 5 button on Samsung remote
+      case 3772813423: // When you press the 5 button on Samsung remote
         digitalWrite(greenPin, LOW);
         break;       
-      case 0xE0E0609F: // When you press the 3 button on Samsung remote
+      case 3772801183: // When you press the 3 button on Samsung remote
         digitalWrite(yellowPin, HIGH);
-        break;       
-      case 0xE0E050AF: // When you press the 6 button on Samsung remote
+        break;        
+      case 3772797103: // When you press the 6 button on Samsung remote
         digitalWrite(yellowPin, LOW);
         break;
     }
-
     irrecv.resume(); // Receives the next value from the button you press
   }
   delay(10);
