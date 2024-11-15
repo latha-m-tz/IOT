@@ -133,7 +133,7 @@
 #include <ArduinoJson.h>
 
 const char* ssid = "TZ Training Institute";
-const char* password = "TZ@TZ@124$";
+const char* password = "TZ@TZ@124$";//e12cd8c1-b4ac-4b32-8a48-42760ec8a059
 const char* apiEndpoint = "http://apiabtex.tamilzorous.com/api/multiple_switch_on_off";
 
 #define BUTTON_PIN1 D5

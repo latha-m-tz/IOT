@@ -28,7 +28,7 @@ void loop() {
         digitalWrite(bluePin, HIGH);
         break;   
       case 3772780783: // When you press the 4 button on Samsung remote
-        digitalWrite(bluePin, LOW);   
+        digitalWrite(bluePin ,LOW);   
         break;
       case 3772817503: // When you press the 2 button on Samsung remote
         digitalWrite(greenPin, HIGH);
